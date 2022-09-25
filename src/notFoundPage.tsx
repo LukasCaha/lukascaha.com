@@ -21,8 +21,9 @@ const NotFoundPage = () => {
 						</Typography>
 					</Grid>
 					<Grid item>
-						<Link to="/" className="hoverable" style={{ textDecoration: "none", opacity: 0.3 }}>
-							<Typography variant="body1" style={{ fontSize: 30, textAlign: 'center', marginTop: 15, color: "rgba(255, 255,255)", fontFamily: "sfpro" }}>
+
+						<Typography variant="body1" style={{ fontSize: 30, textAlign: 'center', marginTop: 15, fontFamily: "sfpro" }}>
+							<Link to="/" className="hoverable" style={{ textDecoration: "none", opacity: 0.3, color: "rgba(255, 255,255)" }}>
 								Hlavní stránka
 								<svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-arrow-right" width="40" height="40" viewBox="0 0 24 24" strokeWidth="1.5" stroke="#ffffff" fill="none" strokeLinecap="round" strokeLinejoin="round" style={{ marginLeft: 12, position: "relative", top: 8 }}>
 									<path stroke="none" d="M0 0h24v24H0z" fill="none" />
@@ -30,8 +31,9 @@ const NotFoundPage = () => {
 									<line x1="13" y1="18" x2="19" y2="12" />
 									<line x1="13" y1="6" x2="19" y2="12" />
 								</svg>
-							</Typography>
-						</Link>
+							</Link>
+						</Typography>
+
 					</Grid>
 				</Grid>
 			}
@@ -43,8 +45,8 @@ const NotFoundPage = () => {
 						</Typography>
 					</Grid>
 					<Grid item>
-						<Link to="/" className="hoverable" style={{ textDecoration: "none", opacity: 0.3 }}>
-							<Typography variant="body1" style={{ fontSize: 30, textAlign: 'center', marginTop: 15, color: "rgba(255, 255,255)", fontFamily: "sfpro" }}>
+						<Typography variant="body1" style={{ fontSize: 30, textAlign: 'center', marginTop: 15, fontFamily: "sfpro" }}>
+							<Link to="/" className="hoverable" style={{ textDecoration: "none", opacity: 0.3, color: "rgba(255, 255,255)" }}>
 								Hlavní stránka
 								<svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-arrow-right" width="40" height="40" viewBox="0 0 24 24" strokeWidth="1.5" stroke="#ffffff" fill="none" strokeLinecap="round" strokeLinejoin="round" style={{ marginLeft: 12, position: "relative", top: 8 }}>
 									<path stroke="none" d="M0 0h24v24H0z" fill="none" />
@@ -52,8 +54,9 @@ const NotFoundPage = () => {
 									<line x1="13" y1="18" x2="19" y2="12" />
 									<line x1="13" y1="6" x2="19" y2="12" />
 								</svg>
-							</Typography>
-						</Link>
+							</Link>
+						</Typography>
+
 					</Grid>
 				</Grid>
 			}

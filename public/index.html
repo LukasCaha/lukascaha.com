@@ -81,6 +81,23 @@
       .hoverable:hover {
         opacity: 0.7 !important;
       }
+
+      a {
+        text-decoration: none;
+        background-image: linear-gradient(#fff, #fff);
+        background-repeat: no-repeat;
+        background-position: bottom left;
+        background-size: 0% 3px;
+        transition: background-size 500ms ease-in-out;
+
+        /* extra styling   */
+        font-weight: var(--fw-bold);
+      }
+
+      a:hover {
+        background-size: 100% 3px;
+        color: inherit;
+      }
     </style>
   </head>
   <body>

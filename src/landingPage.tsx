@@ -28,18 +28,18 @@ const LandingPage = () => {
 								</Typography>
 							</Grid>
 							<Grid item>
-								<a className="hoverable" href="tel:735840262" style={{ textDecoration: "none", opacity: 0.3 }}>
-									<Typography variant="body1" style={{ fontSize: 30, textAlign: 'center', marginTop: 15, color: "rgba(255, 255,255)", fontFamily: "sfpro" }}>
+								<Typography variant="body1" style={{ fontSize: 30, textAlign: 'center', marginTop: 15, fontFamily: "sfpro" }}>
+									<a className="hoverable" href="tel:735840262" style={{ textDecoration: "none", opacity: 0.3, color: "rgba(255, 255,255)" }}>
 										735 840 262
-									</Typography>
-								</a>
+									</a>
+								</Typography>
 							</Grid>
 							<Grid item>
-								<a className="hoverable" href="mailto:lukas.caha@youklid.cz?subject=Pozdrav&body=Ahoj Lukáši!" style={{ textDecoration: "none", opacity: 0.3 }}>
-									<Typography variant="body1" style={{ fontSize: 18, textAlign: 'center', marginTop: 15, marginBottom: 30, color: "rgba(255, 255,255)", fontFamily: "sfpro" }}>
+								<Typography variant="body1" style={{ fontSize: 18, textAlign: 'center', marginTop: 15, marginBottom: 30, fontFamily: "sfpro" }}>
+									<a className="hoverable" href="mailto:lukas.caha@youklid.cz?subject=Pozdrav&body=Ahoj Lukáši!" style={{ textDecoration: "none", opacity: 0.3, color: "rgba(255, 255,255)" }}>
 										lukas.caha@youklid.cz
-									</Typography>
-								</a>
+									</a>
+								</Typography>
 							</Grid>
 							<Grid item style={{ width: "100%" }}>
 								<Grid container justifyContent={"space-evenly"} alignItems={"center"} style={{ width: "100%" }}>
@@ -91,16 +91,17 @@ const LandingPage = () => {
 						<Typography variant="body1" style={{ fontSize: 20, textAlign: 'center', marginTop: 15, color: "rgba(255, 255,255, 0.3)", fontFamily: "sfpro" }}>
 							Full-stack Web Developer
 						</Typography>
-						<a className="hoverable" href="tel:735840262" style={{ textDecoration: "none", opacity: 0.3 }}>
-							<Typography variant="body1" style={{ fontSize: 50, textAlign: 'center', marginTop: 15, color: "rgba(255, 255,255)", fontFamily: "sfpro" }}>
-								735 840 262
-							</Typography>
-						</a>
-						<a className="hoverable" href="mailto:lukas.caha@youklid.cz?subject=Pozdrav&body=Ahoj Lukáši!" style={{ textDecoration: "none", opacity: 0.3 }}>
-							<Typography variant="body1" style={{ fontSize: 30, textAlign: 'center', marginTop: 30, color: "rgba(255, 255,255)", fontFamily: "sfpro" }}>
+
+						<Typography variant="body1" style={{ fontSize: 50, textAlign: 'center', marginTop: 15, fontFamily: "sfpro" }}>
+							<a className="hoverable" href="tel:735840262" style={{ textDecoration: "none", opacity: 0.3, color: "rgba(255, 255,255)" }}>
+								735&nbsp;840&nbsp;262
+							</a>
+						</Typography>
+						<Typography variant="body1" style={{ fontSize: 30, textAlign: 'center', marginTop: 30, fontFamily: "sfpro" }}>
+							<a className="hoverable" href="mailto:lukas.caha@youklid.cz?subject=Pozdrav&body=Ahoj Lukáši!" style={{ textDecoration: "none", opacity: 0.3, color: "rgba(255, 255,255)" }}>
 								lukas.caha@youklid.cz
-							</Typography>
-						</a>
+							</a>
+						</Typography>
 					</Grid>
 					<a className="hoverable" href="https://youklid.cz/" style={{ position: "absolute", right: 50, bottom: 50, opacity: 0.3 }} target="_blank" rel="noopener noreferrer">
 						<img src="logo.png" alt="youklid" width="150px" />
@@ -129,7 +130,7 @@ const LandingPage = () => {
 					</a>
 				</Grid>
 			}
-		</div>
+		</div >
 	);
 };
 
